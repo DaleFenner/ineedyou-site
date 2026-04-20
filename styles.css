@@ -1,0 +1,59 @@
+
+/* INeedYOU Cinematic Styles */
+
+:root{
+  --bg:#030303;
+  --panel:#0c0c0d;
+  --text:#f5f5f7;
+  --red:#d11228;
+  --red2:#ff3048;
+}
+
+/* basic */
+body{
+  margin:0;
+  background:#050505;
+  color:var(--text);
+  font-family:Arial, sans-serif;
+}
+
+/* navbar */
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+}
+
+/* hero */
+.hero{
+  padding:60px;
+}
+
+/* red highlight */
+.red{
+  color:var(--red2);
+}
+
+/* buttons */
+.btn{
+  padding:12px 20px;
+  background:linear-gradient(var(--red2), var(--red));
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+/* cards */
+.feature-card{
+  background:#111;
+  border:1px solid rgba(255,255,255,.1);
+  padding:20px;
+  border-radius:12px;
+}
+
+/* footer */
+footer{
+  text-align:center;
+  padding:40px;
+  color:#aaa;
+}
